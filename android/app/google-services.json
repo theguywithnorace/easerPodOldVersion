@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "958171731810",
+    "firebase_url": "https://easerpod.firebaseio.com",
+    "project_id": "easerpod",
+    "storage_bucket": "easerpod.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958171731810:android:27d8cffa811e5bf9",
+        "android_client_info": {
+          "package_name": "com.easerpod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "958171731810-ikja2doj4lla3vo276o7hsh0qoegipam.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPhOciM1YwICjOBu4wyeWJ5WNCd13aQwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "958171731810-ikja2doj4lla3vo276o7hsh0qoegipam.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "958171731810-cok0fgorcc9mqv5f7rem64i1ntreqcpo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.easerPod"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
