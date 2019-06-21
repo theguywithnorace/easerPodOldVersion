@@ -6,6 +6,7 @@ target 'easerPod' do
   use_frameworks!
 
 pod 'Firebase/Core', '~> 6.2.0'
+pod 'Firebase/Auth', '~> 6.2.0'
 
   target 'easerPodTests' do
     inherit! :search_paths
