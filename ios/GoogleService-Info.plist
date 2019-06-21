@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>958171731810-cok0fgorcc9mqv5f7rem64i1ntreqcpo.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.958171731810-cok0fgorcc9mqv5f7rem64i1ntreqcpo</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB74dI2de-t6FuB8czG_NKxWFIczBwNlnQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>958171731810</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.reactjs.native.example.easerPod</string>
+	<key>PROJECT_ID</key>
+	<string>easerpod</string>
+	<key>STORAGE_BUCKET</key>
+	<string>easerpod.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:958171731810:ios:ffe690a8dcc7532c</string>
+	<key>DATABASE_URL</key>
+	<string>https://easerpod.firebaseio.com</string>
+</dict>
+</plist>
