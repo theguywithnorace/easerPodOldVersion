@@ -56,5 +56,25 @@
 			</dict>
 		</dict>
 	</dict>
+  <key>CFBundleURLTypes</key>
+  <array>
+    <dict>
+      <key>CFBundleURLSchemes</key>
+      <array>
+        <string>fb2079682795661520</string>
+      </array>
+    </dict>
+  </array>
+  <key>FacebookAppID</key>
+  <string>2079682795661520</string>
+  <key>FacebookDisplayName</key>
+  <string>easerPod</string>
+  <key>LSApplicationQueriesSchemes</key>
+  <array>
+    <string>fbapi</string>
+    <string>fb-messenger-api</string>
+    <string>fbauth2</string>
+    <string>fbshareextension</string>
+  </array>
 </dict>
 </plist>

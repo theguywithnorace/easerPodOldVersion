@@ -9,6 +9,8 @@ pod 'Firebase/Core', '~> 6.2.0'
 pod 'Firebase/Auth', '~> 6.2.0'
 pod 'Firebase/Firestore', '~> 6.2.0'
 
+  pod 'react-native-fbsdk', :path => '../node_modules/react-native-fbsdk'
+
   target 'easerPodTests' do
     inherit! :search_paths
     # Pods for testing
