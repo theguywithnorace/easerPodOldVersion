@@ -3,9 +3,11 @@ package com.easerpod;
 import android.app.Application;
 import io.invertase.firebase.auth.RNFirebaseAuthPackage;
 import io.invertase.firebase.firestore.RNFirebaseFirestorePackage; // <-- Add this line
+import com.airbnb.android.react.maps.MapsPackage;
 
 import com.facebook.CallbackManager;
 import com.facebook.react.ReactApplication;
+import com.airbnb.android.react.maps.MapsPackage;
 import com.facebook.reactnative.androidsdk.FBSDKPackage;
 import io.invertase.firebase.RNFirebasePackage;
 import com.facebook.react.ReactNativeHost;
@@ -34,10 +36,12 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new MapsPackage(),
             new FBSDKPackage(mCallbackManager),
             new RNFirebasePackage(),
               new RNFirebaseAuthPackage(),
               new RNFirebaseFirestorePackage()
+
 
       );
     }
