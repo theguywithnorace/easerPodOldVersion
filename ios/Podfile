@@ -15,6 +15,8 @@ pod 'Firebase/Firestore', '~> 6.2.0'
 
   pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
 
+  pod 'react-native-location', :path => '../node_modules/react-native-location'
+
   target 'easerPodTests' do
     inherit! :search_paths
     # Pods for testing

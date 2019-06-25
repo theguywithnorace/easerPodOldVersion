@@ -7,6 +7,7 @@ import com.airbnb.android.react.maps.MapsPackage;
 
 import com.facebook.CallbackManager;
 import com.facebook.react.ReactApplication;
+import com.github.reactnativecommunity.location.RNLocationPackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import com.airbnb.android.react.maps.MapsPackage;
 import com.facebook.reactnative.androidsdk.FBSDKPackage;
@@ -37,6 +38,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new RNLocationPackage(),
             new RNGestureHandlerPackage(),
             new MapsPackage(),
             new FBSDKPackage(mCallbackManager),

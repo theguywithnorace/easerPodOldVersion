@@ -46,6 +46,7 @@
 		920EB4F822C166D80078B6B4 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920EB4F522C166D60078B6B4 /* FBSDKCoreKit.framework */; };
 		920EB4F922C166D80078B6B4 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920EB4F622C166D70078B6B4 /* FBSDKShareKit.framework */; };
 		920EB4FA22C166D80078B6B4 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920EB4F722C166D80078B6B4 /* FBSDKLoginKit.framework */; };
+		920EB56422C227C70078B6B4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920EB56322C227C70078B6B4 /* CoreLocation.framework */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		E7C775EC02904102667B4021 /* Pods_easerPod_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BECE261649F62A784340317 /* Pods_easerPod_tvOS.framework */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
@@ -373,6 +374,7 @@
 		920EB4F522C166D60078B6B4 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		920EB4F622C166D70078B6B4 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 		920EB4F722C166D80078B6B4 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		920EB56322C227C70078B6B4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		9352E67A94E043E41BD0E487 /* Pods-easerPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-easerPod.release.xcconfig"; path = "Target Support Files/Pods-easerPod/Pods-easerPod.release.xcconfig"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		C32922ABCF1083443AB97B1D /* Pods-easerPod-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-easerPod-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-easerPod-tvOS/Pods-easerPod-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -399,6 +401,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				920EB56422C227C70078B6B4 /* CoreLocation.framework in Frameworks */,
 				ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
 				920EB4F822C166D80078B6B4 /* FBSDKCoreKit.framework in Frameworks */,
@@ -569,6 +572,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				920EB56322C227C70078B6B4 /* CoreLocation.framework */,
 				920EB4F522C166D60078B6B4 /* FBSDKCoreKit.framework */,
 				920EB4F722C166D80078B6B4 /* FBSDKLoginKit.framework */,
 				920EB4F622C166D70078B6B4 /* FBSDKShareKit.framework */,
@@ -791,6 +795,13 @@
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
