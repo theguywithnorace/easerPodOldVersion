@@ -2,6 +2,8 @@ package com.easerpod;
 
 import android.app.Application;
 import io.invertase.firebase.auth.RNFirebaseAuthPackage;
+import io.invertase.firebase.firestore.RNFirebaseFirestorePackage; // <-- Add this line
+
 import com.facebook.CallbackManager;
 import com.facebook.react.ReactApplication;
 import com.facebook.reactnative.androidsdk.FBSDKPackage;
@@ -34,7 +36,9 @@ public class MainApplication extends Application implements ReactApplication {
           new MainReactPackage(),
             new FBSDKPackage(mCallbackManager),
             new RNFirebasePackage(),
-              new RNFirebaseAuthPackage()
+              new RNFirebaseAuthPackage(),
+              new RNFirebaseFirestorePackage()
+
       );
     }
 
