@@ -17,6 +17,8 @@ pod 'Firebase/Firestore', '~> 6.2.0'
 
   pod 'react-native-location', :path => '../node_modules/react-native-location'
 
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
   target 'easerPodTests' do
     inherit! :search_paths
     # Pods for testing
